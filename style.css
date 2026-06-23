@@ -1,0 +1,218 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+.body-home {
+    background-image: url("images/home-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url("images/meals-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============================== Header ============================*/
+
+.header {
+    background-color: #000000;
+
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.header i{
+    color: #F5F5F5;
+    font-size: 25px;
+
+    display: inline-block;
+    padding-top: 14px;
+    margin-left: 150px;
+}
+
+/*=================================== Home Page ===================================*/
+#home {
+    padding-bottom: 50px;
+}
+
+/*=================================== Home Page ===================================*/
+
+#home-logo-img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*=================================== Home Page Menu ===================================*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color:  #F5F5F5;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #D4AF37;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+/*=================================== Meals Page ===================================*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*=================================== Meals Page Menu ===================================*/
+
+.meals-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    border: 5px solid rgb(0, 0, 0);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50%;
+    padding-left: 20px;
+
+    background-image: url("images/cards-bg.jpg");
+}
+
+.meals-menu-item i {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+/*=================================== Details Page ===================================*/
+.item-details img{
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.item-details h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1a1a1a;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-details-info {
+    font-size: 15px;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+}
+
+.item-details-description {
+    font-size: 22px;
+    color: #1a1a1a;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+.item-details-extras {
+    font-size: 15px;
+    color: #1a1a1a;
+    padding-left: 625px;
+    display: block;
+}
+
+.item-details-extras h2 {
+    font-size: 22px;
+    color: #1a1a1a;
+    display: block;
+    padding-left: 25px;
+}
+
+.item-details-notes {
+    font-size: 15px;
+    color: #1a1a1a;
+    display: block;
+    text-align: center;    
+}
+
+.item-details-order a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    text-align: center;
+    color: #085e97;
+
+    padding: 50px;
+    margin: 50px;
+
+}
+
+/*============================== Order Placed Page ============================*/
+.order {
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 30px;
+    color: #1a1a1a;
+}
+
+.order a {
+    text-decoration: none;
+    
+    text-align: center;
+    color: #1a1a1a;
+
+}
+
+/*============================== About Page ============================*/
+.about {
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 30px;
+    color: #1a1a1a;
+}
+
+.about a {
+    text-decoration: none;
+    
+    text-align: center;
+    color: #1a1a1a;
+}
+
+/*============================== COMPATIBILITY ============================*/
+
+@media only screen and (min-width: 1000px) {
+
+}
